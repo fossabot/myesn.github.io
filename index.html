@@ -1,4 +1,5 @@
 <html><head><title>个人简历</title><style>@import url('https://unpkg.com/cssume')</style><script>
+if(location.protocol !=='https:')location.href = `https://${location.host}`;
         window.process = window.process || { env: { NODE_ENV: 'development' } }
         </script><script>(function(){window.onerror=function(a){window.parent.postMessage({type:'iframe-error',message:a},'*')},window.addEventListener('unhandledrejection',function(a){window.parent.postMessage({type:'iframe-error',message:a.reason.stack},'*')}),window.addEventListener('click',function(){window.parent.postMessage({type:'codepan-make-output-active'},'*')});var a=function(){var a=function(c,a){return c.toLowerCase()<a.toLowerCase()?-1:1},b=function(a){return a+''};return function c(d,e,f){var g,h,i='',j=[];if(f=f||'',e=e||[],null===d)return'null';if('undefined'==typeof d)return'undefined';try{i={}.toString.call(d)}catch(a){i='[object Object]'}if('[object Number]'===i)return d+'';if('[object Boolean]'===i)return d?'true':'false';if('[object Function]'===i)return d.toString().split('\n  ').join('\n'+f);if('[object String]'===i)return'"'+b(d.replace(/"/g,'\\"'))+'"';for(h=0;h<e.length;h++)if(d===e[h])return'[circular '+i.slice(1)+('outerHTML'in d?' :\n'+b(d.outerHTML).split('\n').join('\n'+f):'');if(e.push(d),'[object Array]'===i){for(g=0;g<d.length;g++)j.push(c(d[g],e));return'['+j.join(', ')+']'}if(i.match(/Array/))return i;var k=i+' ',l=f+'  ';if(2>f.length/2){var m=[];try{for(g in d)m.push(g)}catch(a){}for(m.sort(a),g=0;g<m.length;g++)try{j.push(l+m[g]+': '+c(d[m[g]],e,l))}catch(a){}}return 0===j.length?k+'{ ... }':k+'{\n'+j.join(',\n')+'\n'+f+'}'}}(),b=function(){var b=function(){},c=function(b){for(var c,d=[],e=0,f=b.length;e<f;e++)c=b[e],'undefined'==typeof c?d.push('undefined'):d.push(a(c));return d},d=b.prototype.methods=['debug','clear','error','info','log','warn','dir','props','_raw','group','groupEnd','dirxml','table','trace','assert','count','markTimeline','profile','profileEnd','time','timeEnd','timeStamp','groupCollapsed'];return d.forEach(function(a){var d=console[a],e=console.clear;b.prototype[a]=function(){var f=[].slice.call(arguments),g=c(f);window.parent.postMessage({type:'codepan-console',method:'_raw'===a?f.shift():a,args:'_raw'===a?g.slice(1):g},'*'),d||(a='log'),'_raw'!==a&&('clear'!==a||'clear'===a&&e)&&d.apply(b,f)}}),new b}();window.console=b})();</script></head><body><h1 id="严保胜">严保胜</h1>
 <blockquote>
@@ -55,7 +56,7 @@
 <li>Node.js</li>
 <li>C#</li>
 <li>WinForm</li>
-<li>WebServices、WebApi</li>
+<li>WebServices、WebAPI</li>
 <li>ASP.NET MVC、ASP.NET Core MVC、.NET Core</li>
 <li>EntityFramework、EntityFrameworkCore</li>
 <li>HTML5 + CSS3</li>
